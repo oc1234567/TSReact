@@ -1,0 +1,6 @@
+.ctrip {
+    max-width: 100px;
+}
+.ctrip--rotate {
+    transform: rotate(30deg);
+}

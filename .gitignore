@@ -1,0 +1,7 @@
+# MODULE
+node_modules/
+package-lock.json
+
+# 打包产物
+dist
+build.min.js

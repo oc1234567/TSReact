@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Hello React!</title>
+        <link href="styles/styles.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.font.im/css?family=Open+Sans" rel="stylesheet" type="text/css"> 
+
+    </head>
+    <body>
+        <div id="example"></div>
+
+        <header class="page-header">
+                <h1>Cute Puppies Express!</h1>
+            </header>
+            
+            <main>
+                <p>I love beagles <em>so</em> much! Like, really, a lot. They’re adorable and their ears are so, so snuggly soft!</p>
+            </main>
+            
+        <p>Salamanders are a group of amphibians with a lizard-like appearance, including short legs and a tail in both larval and adult forms.</p>
+
+<aside>
+    <p>The Rough-skinned Newt defends itself with a deadly neurotoxin.</p>
+</aside>
+
+<p>Several species of salamander inhabit the temperate rainforest of the Pacific Northwest, including the Ensatina, the Northwestern Salamander and the Rough-skinned Newt. Most salamanders are nocturnal, and hunt for insects, worms and other small creatures.</p>
+
+<label for="ice-cream-choice">Choose a flavor:</label>
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+<datalist id="ice-cream-flavors">
+    <option value="Chocolate">
+    <option value="Coconut">
+    <option value="Mint">
+    <option value="Strawberry">
+    <option value="Vanilla">
+</datalist>
+
+<details>
+        <summary>Details</summary>
+        Something small enough to escape casual notice.
+    </details>
+    
+    <figure>
+            <img src="./src/img/ctrip.png"
+                 alt="Elephant at sunset">
+            <figcaption>An elephant at sunset</figcaption>
+        </figure>
+        <figure>
+                <figcaption>Get browser details using <code>navigator</code>.</figcaption>
+                <pre>
+              function NavigatorExample() {
+                var txt;
+                txt = "Browser CodeName: " + navigator.appCodeName;
+                txt+= "Browser Name: " + navigator.appName;
+                txt+= "Browser Version: " + navigator.appVersion ;
+                txt+= "Cookies Enabled: " + navigator.cookieEnabled;
+                txt+= "Platform: " + navigator.platform;
+                txt+= "User-agent header: " + navigator.userAgent;
+              }</pre>
+              </figure>
+
+              <article>
+                    <h1>How to be a wizard</h1>
+                    <ol>
+                        <li>Grow a long, majestic beard.</li>
+                        <li>Wear a tall, pointed hat.</li>
+                        <li>Have I mentioned the beard?</li>
+                    </ol>
+                    <footer>
+                        <p>© 2018 Gandalf</p>
+                    </footer>
+                </article>
+
+        <!-- Dependencies -->
+        <script src="./node_modules/react/umd/react.development.js"></script>
+        <script src="./node_modules/react-dom/umd/react-dom.development.js"></script>
+
+        <!-- Main -->
+        <script src="./dist/bundle.js"></script>
+    </body>
+</html>
